@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <title>Sample</title>
+  <meta name="description" content="The HTML5 Herald" />
+  <meta name="author" content="SitePoint" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Knewave|Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css" />
+  <link id="pagestyle" rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://use.typekit.net/uhg4epa.css">
+</head>
+<header>
+    <nav class="nav navbar navbar-expand-lg navbar-light">      
+          <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+            aria-expanded="true" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="navbar-collapse collapse" id="navbar">
+            <ul class="navbar-nav menu">
+              <li class="menu-item has-children"><a href="">News <span class="fa fa-caret-down"></span></a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="">Latest</a></li>
+                  <li class="menu-item"><a href="">Technology</a></li>
+                  <li class="menu-item"><a href="">Business</a></li>
+                  <li class="menu-item"><a href="">Distrbution</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-children"><a href="Features.html">Features <span class="fa fa-caret-down"></span></a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="Features.html">Latest In Depth Features</a></li>
+                  <li class="menu-item has-children"><a href="">Technology Sectors <span class="fa fa-caret-down"></span></a>
+                    <ul class="sub-menu">
+                      <li class="menu-item"><a href="">Microcontrollers</a></li>
+                      <li class="menu-item"><a href="">Embedded</a></li>
+                      <li class="menu-item"><a href="">Mixed Signal & Analogue</a></li>
+                      <li class="menu-item"><a href="">EDA / PCD Design</a></li>
+                      <li class="menu-item"><a href="">Power</a></li>
+                      <li class="menu-item"><a href="">Test & Management</a></li>
+                      <li class="menu-item"><a href="">Communications</a></li>
+                      <li class="menu-item"><a href="">System Design</a></li>
+                      <li class="menu-item"><a href="">FPGA / ASIC / DSP</a></li>
+                      <li class="menu-item"><a href="">Research & Design</a></li>
+                      <li class="menu-item"><a href="">Directives & Standards</a></li>
+                      <li class="menu-item"><a href="">Optoelectronics</a></li>
+                    </ul>
+                  <li class="menu-item has-children"><a href="">Industry Sectors <span class="fa fa-caret-down"></span></a>
+                    <ul class="sub-menu">
+                      <li class="menu-item"><a href="">Aerospace</a></li>
+                      <li class="menu-item"><a href="">Automotive</a></li>
+                      <li class="menu-item"><a href="">Consumer</a></li>
+                      <li class="menu-item"><a href="">Contract Manufacturing</a></li>
+                      <li class="menu-item"><a href="">Defence</a></li>
+                      <li class="menu-item"><a href="">Distribution</a></li>
+                      <li class="menu-item"><a href="">Industrial</a></li>
+                      <li class="menu-item"><a href="">Medical</a></li>
+                    </ul>
+                  <li class="menu-item"><a href="">Whitepapers</a></li>
+                  <li class="menu-item"><a href="">Technology Watch</a></li>
+                </ul>
+              <li class="menu-item has-children"><a href="">Products & Suppliers <span class="fa fa-caret-down"></span></a>
+                <ul class="sub-menu">
+                  <li class="menu-item has-children"><a href="">Products <span class="fa fa-caret-down"></span></a>
+                    <ul class="sub-menu">
+                      <li class="menu-item"><a href="">Latest</a></li>
+                      <li class="menu-item"><a href="">System Design</a></li>
+                      <li class="menu-item"><a href="">EDA / PCB Design</a></li>
+                      <li class="menu-item"><a href="">FPGA / ASIC / DSP</a></li>
+                      <li class="menu-item"><a href="">Microcontrollers</a></li>
+                      <li class="menu-item"><a href="">Mixed Signal & Analogue</a></li>
+                      <li class="menu-item"><a href="">Power</a></li>
+                      <li class="menu-item"><a href="">Communications Technology</a></li>
+                      <li class="menu-item"><a href="">Test & Measurement</a></li>
+                      <li class="menu-item"><a href="">Embedded</a></li>
+                    </ul>
+                  <li class="menu-item has-children"><a href="">Supplier Database <span class="fa fa-caret-down"></span></a>
+                    <ul class="sub-menu">
+                      <li class="menu-item"><a href="">All</a></li>
+                      <li class="menu-item"><a href="">Communications products</a></li>
+                      <li class="menu-item"><a href="">Electromechanical</a></li>
+                      <li class="menu-item"><a href="">Embedded systems</a></li>
+                      <li class="menu-item"><a href="">Interface / interconnect</a></li>
+                      <li class="menu-item"><a href="">Optoelectronics</a></li>
+                      <li class="menu-item"><a href="">Passive components</a></li>
+                      <li class="menu-item"><a href="">Power</a></li>
+                      <li class="menu-item"><a href="">Semiconductors</a></li>
+                      <li class="menu-item"><a href="">Software design tools</a></li>
+                      <li class="menu-item"><a href="">Test and measurement</a></li>
+                    </ul>
+                  <li class="menu-item has-children"><a href="">Services Database<span class="fa fa-caret-down"></span></a>
+                    <ul class="sub-menu">
+                      <li class="menu-item"><a href="">All</a></li>
+                      <li class="menu-item"><a href="">ASIC design services</a></li>
+                      <li class="menu-item"><a href="">Electronic parts assembly</a></li>
+                      <li class="menu-item"><a href="">Engineering design consultancy</a></li>
+                      <li class="menu-item"><a href="">General electrical/electronic
+                          design services</a></li>
+                      <li class="menu-item"><a href="">Printed circuit boards</a></li>
+                      <li class="menu-item"><a href="">Product testing</a></li>
+                      <li class="menu-item"><a href="">Subcontract design services</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item has-children"><a href="">Magazine <span class="fa fa-caret-down"></span></a>
+                <ul class="sub-menu">
+                  <li class="menu-item has-children"><a href="">Supplements <span class="fa fa-caret-down"></span></a>
+                    <ul class="sub-menu">
+                      <li class="menu-item"><a href="">Supplements Overview</a></li>
+                      <li class="menu-item"><a href="">Design+</a></li>
+                      <li class="menu-item"><a href="">Products in Focus</a></li>
+                      <li class="menu-item"><a href="">Outlook – Future of Electronics</a></li>
+                      <li class="menu-item"><a href="">PXI</a></li>
+                    </ul>
+                  <li class="menu-item"><a href="">Editorial</a></li>
+                  <li class="menu-item"><a href="">Advertising</a></li>
+                  <li class="menu-item"><a href="">Circulation</a></li>
+                  <li class="menu-item"><a href="">Features List</a></li>
+                  <li class="menu-item"><a href="">Digital Magazine</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-children"><a href="">Opinions <span class="fa fa-caret-down"></span></a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="">Interviews</a></li>
+                  <li class="menu-item"><a href="">Blogs</a></li>
+                </ul>
+              <li class="menu-item"><a href="">Videos</a></li>
+              <li class="menu-item"><a href="">Events</a></li>
+            </ul>
+            </li>
+            <div class="search-panel navbar-right ml-auto">
+              <li id="mobile-search" class="d-lg-none d-md-block d-sm-block">
+                <form autocomplete="off" id="search-form" action="@(searchNode?.Url)" method="get">
+                  <input autocomplete="false" type="text" style="display:none;">
+                  <div class="input-group mb-3">
+                    <input name="q" class="form-control search-overlay" type="search" id="search-input" required="required"
+                      placeholder="Search for...">
+                    <span class="input-group-append">
+                      <button class="btn btn btn-outline-danger" onclick="this.form.submit()" type="submit">Search</button>
+                    </span>
+                  </div>
+                </form>
+    
+              </li>
+              <span class="input-group-text" id="basic-addon1" data-toggle="modal" data-target="#myModal"><i
+                  class="fa fa-search d-lg-block d-md-none d-sm-none d-none"></i></span>
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <input type="text" class="form-control" placeholder="type keyword(s) here" aria-label="Search"
+                        aria-describedby="basic-addon1">
+                    </div>
+                  </div>
+                  <button type="button" class="btn btn-default" id="btnclose" data-dismiss="modal">x</button>
+                </div>
+                <div class="input-group-prepend">
+                </div>
+                <span class="input-group-text" id="basic-addon1"><i class="fa fa-search"></i></span>
+              </div>
+      </nav>
+</header>
+
+<body>
+  <section id="news">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas</h1>
+          <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-12 main-article-1-image">
+                      <img class="img-fluid" src="https://i.picsum.photos/id/1/5616/3744.jpg" />
+                  </div>
+                  <div class="col-lg-6 col-md-6 sm-12 main-article">
+                    <div class="main-article-text">
+                                      <div class="article-body">
+                                        <a href="article.html">
+                                          <h5>Tollenda est atque extrahenda radicitus</h5>
+                                        </a>
+                                        <div class="article-text">
+                                            <p>by <a href="#">Lorem ipsum</a> <span>|</span> 21/05/2019</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                  </div>   
+                </div>                    
+            <div class="article-row">
+                <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                  <article class="horizontal-block">
+                    <img class=" img-fluid" src="https://i.picsum.photos/id/1005/5760/3840.jpg" />
+                    <div class="article-body">
+                      <a href="#">
+                        <h5 class="article-title-h">
+                          Quod ea non occurrentia fingunt, vincunt Aristonem
+                        </h5>
+                      </a>
+                      <div class="article-text">
+                      <p>by <a href="#">Lorem ipsum</a> <span>|</span> 19/05/2019</p>
+                    </div>
+                    </div>
+                  </article>
+                </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <img class=" img-fluid" src="https://i.picsum.photos/id/1004/5616/3744.jpg" />
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Illa argumenta propria videamus, cur omnia sint paria peccata
+                    </h5>
+                  </a>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 19/05/2019</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <img class=" img-fluid" src="https://i.picsum.photos/id/1012/3973/2639.jpg"  />
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Duo Reges: constructio interrete
+                    </h5>
+                  </a>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 19/05/2019</p>
+                </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="advertisement">
+                <h5>
+                    Advertisement
+                  </h5>
+                <div class="ad-body">
+                   <img src="https://via.placeholder.com/250" class="img-fluid">
+                </div>
+          </div>
+        </div>
+                </div>
+        <div class="col-12">
+            <div class="view-more">
+                <a href="#" class="btn">View More</a>
+              </div>
+        </div>  
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+  <section id="in-depth">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Non igitur bene</h1>
+          <div id="filter">
+<div class="col-12">
+  <div class="view-more">     
+      <a href="#" class="btn">In Depth</a>
+      <a href="#" class="btn">Technology Sectors</a>
+      <a href="#" class="btn">Industry Sectors</a>
+      <a href="#" class="btn">Whitepapers</a>
+      <a href="#" class="btn">Technology Watch</a>
+    </div> 
+    </div>
+    </div>
+    <div class="article-row">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <img class=" img-fluid" src="https://i.picsum.photos/id/1005/5760/3840.jpg" />
+                <div class="article-body">
+                  <a href="article.html">
+                    <h5 class="article-title-h">Modo etiam paulum ad dexteram de via declinavi, ut ad Pericli sepulcrum accederem</h5>
+                  </a>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a>  <span>|</span> 23/05/2019</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <img class=" img-fluid" src="https://i.picsum.photos/id/1025/4951/3301.jpg" />
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Aliter enim explicari, quod quaeritur, non potest
+                    </h5>
+                  </a>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 21/05/2019</p>
+                </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <img class=" img-fluid" src="https://i.picsum.photos/id/1012/3973/2639.jpg" />
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Cuius ad naturam apta ratio vera illa et summa lex a philosophis dicitur
+                    </h5>
+                  </a>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 21/05/2019</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <img class=" img-fluid" src="https://i.picsum.photos/id/1033/2048/1365.jpg" />
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Nos quidem Virtutes sic natae sumus, ut tibi serviremus, aliud negotii nihil habemus
+                    </h5>
+                  </a>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 19/05/2019</p>
+                </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <img class=" img-fluid" src="https://i.picsum.photos/id/1025/4951/3301.jpg" />
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Sed plane dicit quod intellegit
+                    </h5>
+                  </a>
+                  <div class="article-text">
+                  <p class="article-text">by <a href="#">Lorem ipsum</a> <span>|</span> 21/05/2019</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <img class=" img-fluid" src="https://i.picsum.photos/id/1033/2048/1365.jpg" />
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Hic nihil fuit, quod quaereremus
+                    </h5>
+                  </a>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 17/05/2019</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <img class=" img-fluid" src="https://i.picsum.photos/id/1004/5616/3744.jpg" />
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Tum Quintus: Est plane, Piso, ut dicis, inquit
+                    </h5>
+                  </a>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 15/05/2019</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="advertisement">
+                    <h5>
+                      Advertisement
+                    </h5>
+                    <div class="ad-body">
+                      <img src="https://via.placeholder.com/250" class="img-fluid">
+                   </div>
+                </div>
+          </div>
+        </div>
+        <div class="col-12">
+            <div class="view-more">
+                <a href="#" class="btn">View More</a>
+              </div>
+        </div>  
+          </div>
+        </div>
+        </div>
+  </div>
+</section>
+  <section class="ad-panel">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+      <img src="https://via.placeholder.com/728x90?text=Visit+WhoIsHostingThis.com+Buyers+Guide" alt="" class="img_ad">
+    </div>
+    </div>
+    </div>
+  </section>
+    <section>    
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1>Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis vitia posuisse contraria</h1>
+              <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-12 main-article-1-image">
+                          <img class="img-fluid" src="https://i.picsum.photos/id/1022/6000/3376.jpg" />
+                      </div>
+                      <div class="col-lg-6 col-md-6 sm-12 main-article">
+                        <div class="main-article-text">
+                                          <div class="article-body">
+                                            <a href="article.html">
+                                              <h5>Aliter homines, aliter philosophos loqui putas oportere?</h5>
+                                            </a>
+                                            <div class="article-text">
+                                                <p>by <a href="#">Lorem ipsum</a> <span>|</span> 21/05/2019</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                      </div>   
+                    </div>                    
+                <div class="article-row">
+                    <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                      <article class="horizontal-block">
+                        <img class=" img-fluid" src="https://i.picsum.photos/id/1004/5616/3744.jpg" />
+                        <div class="article-body">
+                          <a href="#">
+                            <h5 class="article-title-h">
+                              Eademne, quae restincta siti?
+                            </h5>
+                          </a>
+                          <div class="article-text">
+                          <p>by <a href="#">Lorem ipsum</a> <span>|</span> 19/05/2019</p>
+                        </div>
+                        </div>
+                      </article>
+                    </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <article class="horizontal-block">
+                    <img class=" img-fluid" src="https://i.picsum.photos/id/1069/3500/2333.jpg" />
+                    <div class="article-body">
+                      <a href="#">
+                        <h5 class="article-title-h">
+                          Cur post Tarentum ad Archytam?
+                        </h5>
+                      </a>
+                      <div class="article-text">
+                      <p>by <a href="#">Lorem ipsum</a> <span>|</span> 19/05/2019</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <article class="horizontal-block">
+                    <img class=" img-fluid" src="https://i.picsum.photos/id/133/2742/1828.jpg"  />
+                    <div class="article-body">
+                      <a href="#">
+                        <h5 class="article-title-h">
+                          Nunc haec primum fortasse audientis servire debemus
+                        </h5>
+                      </a>
+                      <div class="article-text">
+                      <p>by <a href="#">Lorem ipsum</a> <span>|</span> 19/05/2019</p>
+                    </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="advertisement">
+                    <h5>
+                        Advertisement
+                      </h5>
+                      <div class="ad-body">
+                        <img src="https://via.placeholder.com/250" class="img-fluid">
+                     </div>
+              </div>
+            </div>
+                    </div>
+            <div class="col-12">
+                <div class="view-more">
+                    <a href="#" class="btn">View More</a>
+                  </div>
+            </div>  
+              </div>
+            </div>
+          </div>
+          </div></section>
+  <section id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mx-auto">
+          <h2>
+            Omnia contraria, quos etiam insanos esse vultis
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hoc Hieronymus summum bonum esse dixit. Facit enim ille duo seiuncta ultima bonorum, quae ut essent vera, coniungi debuerunt; Et si turpitudinem fugimus in statu et motu corporis, quid est cur pulchritudinem non sequamur? Quae diligentissime contra Aristonem dicuntur a Chryippo. Non igitur de improbo, sed de callido improbo quaerimus, qualis Q. Sic exclusis sententiis reliquorum cum praeterea nulla esse possit, haec antiquorum valeat necesse est. 
+          </p>
+        </div>
+        <div class="col-md-8 mx-auto">
+          <form class="subscribe-block__form">
+            <div class="subscribe-block__input-group">
+              <input type="text" class="form-control" placeholder="Enter Email..." aria-label="Newsletter"
+                aria-describedby="basic-addon1">
+              <span class="input-group-text" id="basic-addon1">Sign Up</span>
+
+          </form>
+        </div>
+      </div>
+  </section>
+  <section>   
+      <div class="container">
+        <div class="row">
+            <div id="interviews">
+          <div class="col-sm-12">
+            <h1>Videsne, ut haec concinant?</h1>
+            <div class="row article-row-1">
+              <div class="col-lg-6 col-md-12 main-article main-article-1-image">
+                <article class="horizontal-block">
+                  <img class=" img-fluid" src="https://i.picsum.photos/id/1073/5472/3648.jpg" />
+              </div>
+              <div class="col-lg-6 col-md-12 main-article">
+                <div class="main-article-text">
+                <div class="article-body">
+                  <a href="article.html">
+                    <h5>Neque solum ea communia, verum etiam paria esse dixerunt</h5>
+                  </a>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 23/05/2019</p>
+                </div>
+                </div>
+              </article>
+              </div> 
+                        
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="view-more">
+                <a href="#" class="btn">View More</a>
+              </div>
+        </div> 
+        </div>
+      </div>
+        <div class="blogs">
+          <h1>Quamquam ab iis philosophiam et omnes ingenuas disciplinas habemus</h1>
+          <div class="article-row">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Ergo, inquit, tibi Q
+                    </h5>
+                  </a>
+                  <div class="excerpt">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Videsne quam sit magna dissensio? Quod ea non occurrentia fingunt, vincunt Aristonem; Videamus animi partes, quarum est conspectus illustrior; Haec quo modo conveniant, non sane intellego. Quam ob rem tandem, inquit, non satisfacit?</p>
+                      </div>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 21/05/2019</p>
+                </div>
+
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Quid dubitas igitur mutare principia naturae?
+                    </h5>
+                  </a>
+                  <div class="excerpt">
+                      <p>A new report looking at how companies are addressing the issue of cyber security makes for ...</p>
+                      </div>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 19/05/2019</p>
+                </div>
+
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Hoc loco tenere se Triarius non potuit
+                    </h5>
+                  </a>
+                  <div class="excerpt">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Deinde prima illa, quae in congressu solemus: Quid tu, inquit, huc? Duo Reges: constructio interrete. Suo genere perveniant ad extremum; Profectus in exilium Tubulus statim nec respondere ausus; Atque hoc loco similitudines eas, quibus illi uti solent, dissimillimas proferebas.</p>
+                      </div>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 19/05/2019</p>
+                </div>
+                 
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <article class="horizontal-block">
+                <div class="article-body">
+                  <a href="#">
+                    <h5 class="article-title-h">
+                      Quis negat?
+                    </h5>
+                  </a>
+                  <div class="excerpt">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hoc mihi cum tuo fratre convenit. Reguli reiciendam; Teneo, inquit, finem illi videri nihil dolere. Septem autem illi non suo, sed populorum suffragio omnium nominati sunt</p>
+                      </div>
+                  <div class="article-text">
+                  <p>by <a href="#">Lorem ipsum</a> <span>|</span> 19/05/2019</p>
+                </div>
+                </div>
+              </article>
+            </div>
+            
+          </div>
+          <div class="col-12">
+            <div class="view-more">
+                <a href="#" class="btn">View More</a>
+              </div>
+        </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="ad-panel">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+      <img src="https://via.placeholder.com/728x90?text=Visit+WhoIsHostingThis.com+Buyers+Guide" alt="" class="img_ad">
+    </div>
+    </div>
+    </div>
+  </section>
+  <section id="videos">
+      <div class="container">
+        <div class="row">
+            <div class="videos">
+              <h1>Etenim semper illud extra est, quod arte comprehenditur</h1>
+              <div class="container">
+                <div class="row">
+                        <div class="col-lg-6 col-md-12 main-article main-article-1-image">
+                          <article>
+                              <div class="overlay">
+                                  <img class="img-fluid" src="https://i.picsum.photos/id/1047/3264/2448.jpg" />
+                                  <a href="#">
+                                    <div class="after"><i class="fa fa-play"></i></div>
+                                  </a>
+                                  </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 main-article">
+                          <div class="main-article-text">
+                          <div class="article-body">
+                            <a href="article.html">
+                              <h5>Urgent tamen et nihil remittunt </h5>
+                            </a>
+                            <div class="article-text">
+                            <p>by <a href="#">Lorem ipsum</a> <span>|</span> 23/05/2019</p>
+                          </div>
+                          </div>
+                        </article>
+                        </div> 
+                                  
+                      </div>                    
+                      </div>
+                      <div class="article-row">
+                      <div class="row">
+                          <div class="col-lg-3 col-md-6 col-sm-12">
+                              <article class="horizontal-block">
+                                <div class="overlay">
+                                  <img class="article-img img-fluid" src="https://i.picsum.photos/id/1073/5472/3648.jpg" />
+                                  <a href="#">
+                                    <div class="after"><i class="fa fa-play"></i></div>
+                                  </a>
+                                </div>
+                                <div class="article-body">
+                                    <a href="#">
+                                      <h5 class="article-title-h">
+                                        Cum ageremus, inquit, vitae beatum et eundem supremum diem, scribebamus haec
+                                      </h5>
+                                    </a>
+                                    <div class="article-text">
+                                    <p>by <a href="#">Lorem ipsum</a> <span>|</span> 19/05/2019</p>
+                                  </div>
+                                  </div>
+                                </article>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                              <article class="horizontal-block">
+                                <div class="overlay">
+                                  <img class="article-img img-fluid" src="https://i.picsum.photos/id/1082/5416/3611.jpg" />
+                                  <a href="#">
+                                    <div class="after"><i class="fa fa-play"></i></div>
+                                  </a>                               
+                                </div>
+                                <div class="article-body">
+                                    <a href="#">
+                                      <h5 class="article-title-h">
+                                        Hoc non est positum in nostra actione
+                                      </h5>
+                                    </a>
+                                    <div class="article-text">
+                                    <p>by <a href="#">Lorem ipsum</a> <span>|</span> 15/05/2019</p>
+                                  </div>
+                                  </div>
+                                </article>
+                            </div>                          
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                              <article class="horizontal-block">
+                                <div class="overlay">
+                                  <img class="article-img img-fluid" src="https://i.picsum.photos/id/1069/3500/2333.jpg" />
+                                  <a href="#">
+                                    <div class="after"><i class="fa fa-play"></i></div>
+                                  </a>
+                                </div>
+                                <div class="article-body">
+                                    <a href="#">
+                                      <h5 class="article-title-h">
+                                        An ea, quae per vinitorem antea consequebatur, per se ipsa curabit?
+                                      </h5>
+                                    </a>
+                                    <div class="article-text">
+                                    <p>by <a href="#">Lorem ipsum</a> <span>|</span> 13/05/2019</p>
+                                  </div>
+                                  </div>
+                              </article>
+                            </div> 
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <article class="horizontal-block">
+                                  <div class="overlay">
+                                    <img class="article-img img-fluid" src="https://i.picsum.photos/id/133/2742/1828.jpg" />
+                                    <a href="#">
+                                      <div class="after"><i class="fa fa-play"></i></div>
+                                    </a>
+                                  </div>
+                                  <div class="article-body">
+                                      <a href="#">
+                                        <h5 class="article-title-h">
+                                          Sit enim idem caecus, debilis
+                                        </h5>
+                                      </a>
+                                      <div class="article-text">
+                                      <p>by <a href="#">Lorem ipsum</a> <span>|</span> 13/05/2019</p>
+                                    </div>
+                                    </div>
+                                </article>
+                              </div>                         
+                      </div>              
+              <div class="col-12">
+                  <div class="view-more">
+                      <a href="#" class="btn">View More</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section>
+      <div class="magazine-panel">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="mag">
+                <h5 class="mag-title">
+                  Quis Aristidem non mortuum diligit
+                </h5>
+                <div class="mag-text">
+                <h3>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nihilne te delectat umquam -video, quicum loquar-, te igitur, Torquate, ipsum per se nihil delectat?
+                </h3>
+                <h3>
+                  At iste non dolendi status non vocatur voluptas. Duo Reges: constructio interrete. Equidem, sed audistine modo de Carneade? Aperiendum est igitur, quid sit voluptas;
+                </h3>
+              </div>
+                <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                    <a href="#" class="btn">
+                      latest Digital
+                    </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <a href="#" class="btn">
+                      Media Pack
+                    </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <a href="#" class="btn">
+                      Request Free Copy
+                    </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <a href="#" class="btn">
+                      Features List
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <img src="https://i.picsum.photos/id/133/2742/1828.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1>Sin aliud quid voles, postea</h1>
+              <div id="filter">
+    <div class="col-12">
+      <div class="view-more">     
+          <a href="#" class="btn">In Depth</a>
+          <a href="#" class="btn">Technology Sectors</a>
+          <a href="#" class="btn">Industry Sectors</a>
+          <a href="#" class="btn">Whitepapers</a>
+          <a href="#" class="btn">Technology Watch</a>
+        </div> 
+        </div>
+        </div>
+        <div class="article-row">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <article class="horizontal-block">
+                    <img class=" img-fluid" src="https://i.picsum.photos/id/155/3264/2176.jpg" />
+                    <div class="article-body">
+                      <a href="article.html">
+                        <h5 class="article-title-h">Tibi hoc incredibile, quod beatissimum</h5>
+                      </a>
+                      <div class="article-text">
+                      <p>by <a href="#">Lorem ipsum</a> <span>|</span> 23/05/2019</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <article class="horizontal-block">
+                    <img class=" img-fluid" src="https://i.picsum.photos/id/1069/3500/2333.jpg" />
+                    <div class="article-body">
+                      <a href="#">
+                        <h5 class="article-title-h">
+                          Idem adhuc
+                        </h5>
+                      </a>
+                      <div class="article-text">
+                      <p>by <a href="#">Lorem ipsum</a>  <span>|</span> 21/05/2019</p>
+                    </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <article class="horizontal-block">
+                    <img class=" img-fluid" src="https://i.picsum.photos/id/133/2742/1828.jpg" />
+                    <div class="article-body">
+                      <a href="#">
+                        <h5 class="article-title-h">
+                          Quantum Aristoxeni ingenium consumptum videmus in musicis?
+                        </h5>
+                      </a>
+                      <div class="article-text">
+                      <p>by <a href="#">Lorem ipsum</a>  <span>|</span> 21/05/2019</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <article class="horizontal-block">
+                    <img class=" img-fluid" src="https://i.picsum.photos/id/1082/5416/3611.jpg" />
+                    <div class="article-body">
+                      <a href="#">
+                        <h5 class="article-title-h">
+                          Nunc omni virtuti vitium contrario nomine opponitur
+                        </h5>
+                      </a>
+                      <div class="article-text">
+                      <p>by <a href="#">Lorem ipsum</a>  <span>|</span> 19/05/2019</p>
+                    </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <article class="horizontal-block">
+                    <img class=" img-fluid" src="https://i.picsum.photos/id/163/2000/1333.jpg" />
+                    <div class="article-body">
+                      <a href="#">
+                        <h5 class="article-title-h">
+                          Que Manilium, ab iisque M
+                        </h5>
+                      </a>
+                      <div class="article-text">
+                      <p>by <a href="#">Lorem ipsum</a>  <span>|</span> 21/05/2019</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <article class="horizontal-block">
+                    <img class=" img-fluid" src="https://i.picsum.photos/id/1069/3500/2333.jpg" />
+                    <div class="article-body">
+                      <a href="#">
+                        <h5 class="article-title-h">
+                          Nunc omni virtuti vitium contrario nomine opponitur
+                        </h5>
+                      </a>
+                      <div class="article-text">
+                      <p>by <a href="#">Lorem ipsum</a>  <span>|</span> 17/05/2019</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <article class="horizontal-block">
+                    <img class=" img-fluid" src="https://i.picsum.photos/id/146/5184/3456.jpg" />
+                    <div class="article-body">
+                      <a href="#">
+                        <h5 class="article-title-h">
+                          Qui autem de summo bono dissentit de tota philosophiae ratione dissentit
+                        </h5>
+                      </a>
+                      <div class="article-text">
+                      <p>by <a href="#">Lorem ipsum</a>  <span>|</span> 15/05/2019</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="advertisement">
+                        <h5>
+                          Advertisement
+                        </h5>
+                        <div class="ad-body">
+                          <img src="https://via.placeholder.com/250" class="img-fluid">
+                       </div>
+                    </div>
+              </div>
+            </div>
+            <div class="col-12">
+                <div class="view-more">
+                    <a href="#" class="btn">View More</a>
+                  </div>
+            </div>  
+              </div>
+            </div>
+            </div>
+          </section> 
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-12 link">
+          <h4>Sections</h4>
+          <ul class="links">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+            <li>
+              <a href="">
+                Meet The Team
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Advertising
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Archive
+              </a>
+            </li>
+            <li>
+              <a href="">
+                RSS
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Subscribe
+              </a>
+            </li>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <li>
+              <a href="">
+                News
+              </a>
+            </li>
+            <li>
+              <a href="">
+                In Depth
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Products
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Suppliers
+              </a>
+            </li>
+              <li>
+                  <a href="">
+                    Magazine
+                  </a>
+                </li>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <li>
+              <a href="">
+                Services
+              </a>
+            </li>
+         
+            <li>
+              <a href="">
+                Videos
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Blogs
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Events
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Technology Spotlight
+              </a>
+            </li>
+          </div>
+          </div>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 event">
+          <h4>Latest Event</h4>
+          <article>
+                <div class="article-body">
+                  <a href="#">
+                    <h5>
+                      Quod ea non occurrentia fingunt, vincunt Aristonem
+                    </h5>
+                  </a>
+                  <div class="article-text">
+                    <p>by <a href="#">Lorem ipsum</a>  <span>|</span> 15/05/2019</p>
+                                </div>
+                                <div class="excerpt">
+                  <p>At iste non dolendi status non vocatur voluptas. Duo Reges: constructio interrete. Equidem, sed audistine modo de Carneade? Aperiendum est igitur, quid sit voluptas;</p>
+                  </div>
+                </div>
+              </article>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="./js/site.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
